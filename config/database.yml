@@ -1,0 +1,10 @@
+default: &default
+  adapter: postgresql
+
+development:
+  <<: *default
+  database: pard_development
+
+test:
+  <<: *default
+  database: pard_test
