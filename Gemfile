@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise'
 gem 'paperclip', '~> 4.2'
+gem 'stripe'
 
 group :development do
   gem 'letter_opener'
@@ -19,6 +20,7 @@ group :development do
 end
 
 group :test, :development do
+  gem 'dotenv-rails'
   gem 'rspec-rails'
   gem 'pry'
 end
