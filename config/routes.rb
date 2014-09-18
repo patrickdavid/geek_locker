@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root to: "lockers#index"
   resources :lockers
   resources :charges
+  resources :subscriptions
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

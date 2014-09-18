@@ -1,8 +1,5 @@
 <h1>All Locker</h1>
 
-
-
-
 <% @lockers.each do |locker| %>
 <%= link_to locker.name, locker_path(locker) %>
   <p><%= link_to "Edit", edit_locker_path(locker), :class => "btn btn-default" %></p>
