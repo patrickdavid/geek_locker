@@ -1,10 +1,9 @@
-default: &default
-  adapter: postgresql
-
 development:
-  <<: *default
-  database: pard_development
+  adapter: postgresql
+  database: geeklocker_development
+  host: localhost
 
 test:
-  <<: *default
-  database: pard_test
+  adapter: postgresql
+  database: geeklocker_test
+
